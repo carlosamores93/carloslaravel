@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('frontend.layout');
 });
+
+Route::get('/home/', function () {
+    return view('frontend.home');
+});
+
+Route::get('/about/', function () {
+    return view('frontend.about');
+});
+
+Route::get('/contact/', function () {
+    return view('frontend.contact');
+});
