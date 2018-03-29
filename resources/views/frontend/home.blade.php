@@ -21,12 +21,12 @@ Slider Section Start
             <div class="block wow fadeInUp" data-wow-delay=".3s">
                 <!-- Slider -->
                 <section class="cd-intro">
-                    <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s" >
+                    <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".5s" >
                     <span>Hola, soy Carlos Salvador Amores Martínez</span><br>
                     <span class="cd-words-wrapper">
-                        <b class="is-visible">Desarrollador Web</b>
-                        <b>Trabajo en iAhorro.com </b>
-                        <b>Padre de Camila Amores</b>
+                        <b class="is-visible">Programador</b>
+                        <b>Back End </b>
+                        <b>En iAhorro.com </b>
                     </span>
                     </h1>
                     </section> <!-- cd-intro -->
