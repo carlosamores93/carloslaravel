@@ -12,6 +12,9 @@
 */
 
 
+
+
+
 Route::get('/', function () {
     return view('frontend.construccion');
 });
@@ -22,9 +25,12 @@ Route::get('/', function () {
 });
 */
 
-Route::get('/home/', function () {
-    return view('frontend.home');
-});
+
+		require (__DIR__ . '/rutas/frontend/home.php');
+
+
+
+		
 
 Route::get('/about/', function () {
     return view('frontend.about');

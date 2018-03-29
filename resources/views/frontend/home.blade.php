@@ -1,4 +1,9 @@
-@extends('frontend.layout')
+@extends('frontend.layout.layout')
+
+
+@section('header')
+    @include('frontend.include.header')
+@endsection
 
 
 @section('content')
@@ -327,3 +332,8 @@ Portfolio Section Start
 
 @endsection
 
+
+
+@section('footer')
+    @include('frontend.include.footer')
+@endsection
