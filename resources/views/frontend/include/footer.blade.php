@@ -1,29 +1,32 @@
-<footer id="footer" style="border-top: 1px solid #369;">
-    <div class="container">
-        <div class="col-md-8">
-            <p class="copyright">Copyright: <span> {{date('Y')}} </span> Design and Developed by <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>. <br> 
-                Get More 
-                <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">
-                    Free Bootstrap Templates
-                </a>
+<footer id='footer' style='border-top: 1px solid #369;'>
+    <div class='container'>
+        <div class='col-md-8'>
+            <p class='copyright'> Carlos Salvador Amores Martínez | Copyright: 
+                <span> 
+                    {{date('Y')}} 
+                </span> 
+                <br>
+                Programador Back End en iAhorro.com
+                <a href='http://www.iahorro.com/utm_source=CarlosAmores' target='_blank'>iAhorro.com</a>
+                <br> 
+                Design and Developed by <a href='http://www.Themefisher.com' target='_blank'>Themefisher</a>
             </p>
         </div>
-        <div class="col-md-4">
-            {{-- Social Media --}}
-            <ul class="social">
+        <div class='col-md-4'>
+            <ul class='social'>
                 <li>
-                    <a href="http://wwww.fb.com/themefisher" class="Facebook">
-                        <i class="ion-social-facebook"></i>
+                    <a href='https://www.facebook.com/carlosamores93' class='Facebook' target='_blank'>
+                        <i class='ion-social-facebook'></i>
                     </a>
                 </li>
                 <li>
-                    <a href="http://wwww.twitter.com/themefisher" class="Twitter">
-                        <i class="ion-social-github"></i>
+                    <a href='https://github.com/carlosamores93' class='Github' target='_blank'>
+                        <i class='ion-social-github'></i>
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="Linkedin">
-                        <i class="ion-social-linkedin"></i>
+                    <a href='https://www.linkedin.com/in/carlosamores93/' class='Linkedin' target='_blank'>
+                        <i class='ion-social-linkedin'></i>
                     </a>
                 </li>
             </ul>

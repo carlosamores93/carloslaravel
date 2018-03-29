@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}"">
+<html lang="{{ app()->getLocale() }}">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -74,7 +74,7 @@
             gtag('config', 'UA-115987867-1');
         </script>
 
-        
+
     </head>
 
     <body>
