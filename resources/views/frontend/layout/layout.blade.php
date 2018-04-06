@@ -50,7 +50,7 @@
 		@endif
 
         
-       
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
         <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="/plugins/ionicons/ionicons.min.css">
         <link rel="stylesheet" href="/plugins/animate-css/animate.css">
@@ -59,6 +59,7 @@
         <link rel="stylesheet" href="/plugins/owl-carousel/owl.theme.css">
         <link rel="stylesheet" href="/plugins/facncybox/jquery.fancybox.css">
         <link rel="stylesheet" href="/css/style.css">
+
 
         {{-- 
         <link rel="stylesheet" href="{{ mix('/css/all.css') }}">
