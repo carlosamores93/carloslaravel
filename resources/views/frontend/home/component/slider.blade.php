@@ -9,9 +9,9 @@
                         <span>Hola, soy Carlos Salvador Amores Martínez</span><br>
                         <span class="cd-words-wrapper">
                             <b class="is-visible">Prog Back End </b>
-                            <b>Ecuador </b>
-                            <b>Barcelona S C </b>
-                            <b>C. Atl de Madrid </b>
+                            <b>Ecuador</b>
+                            <b>Barcelona S C</b>
+                            <b>C. Atl de Madrid</b>
                             <b>La Maná </b>
                             <b>Camila </b>
                             <b>Amores </b>
@@ -22,9 +22,9 @@
                     <h2 class="wow fadeInUp animated" data-wow-delay=".6s" >
                         Grado Ingeniería de Computadores <strong> | </strong> Programador Bak End <a href="https://www.iahorro.com" target="_blank"> iAhorro.com </a>
                         <br>
-                        Mi mayor motivación: <strong> Camila Leonor Amores Obando </strong>
-                        <br>
                         La Maná, Ecuador <strong> | </strong> Moratalaz, Madrid, España
+                        <br>
+                        <strong> Camila Leonor Amores Obando </strong>
                     	
                     </h2>
                     <a class="btn btn-default btn-green" href="http://www.carlosamores.hol.es" target="_blank">

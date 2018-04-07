@@ -2,13 +2,13 @@
     <div class='container'>
         <div class='col-md-8'>
             <p class='copyright'> 
-                <a href='{{ env('APP_URL') }}'>Carlos Salvador Amores Martínez</a> - Copyright: 
+                <a href='/'>Carlos Salvador Amores Martínez</a> - Copyright: 
                 <span> 
                     {{date('Y')}} 
                 </span> 
                 <br>
                 Programador Back End en
-                <a href='http://www.iahorro.com/utm_source=CarlosAmores' target='_blank'>iAhorro.com</a>
+                <a href='http://www.iahorro.com' target='_blank'>iAhorro.com</a>
             </p>
         </div>
         <div class='col-md-4'>

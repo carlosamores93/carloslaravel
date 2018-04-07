@@ -1,4 +1,4 @@
 <?php
 
-	Route::get('/home/', 'Frontend\HomeController@index');
+	Route::get('/', 'Frontend\HomeController@index');
 

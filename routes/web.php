@@ -14,10 +14,11 @@
 
 
 
-
+/*
 Route::get('/', function () {
     return view('frontend.construccion');
 });
+*/
 
 /*
 Route::get('/', function () {
