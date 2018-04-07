@@ -1,7 +1,7 @@
 <section id="feature">
     <div class="container">
         <div class="section-heading">
-            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Offer From Me</h1>
+            <h2 class="title wow fadeInDown" data-wow-delay=".3s">Intereses</h2>
             <p class="wow fadeInDown" data-wow-delay=".5s">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,<br> quasi dolores numquam dolor vero ex, tempora commodi repellendus quod laborum.
             </p>

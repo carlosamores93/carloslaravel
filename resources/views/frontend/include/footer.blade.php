@@ -1,17 +1,14 @@
 <footer id='footer' style="border-top: 1px solid #dedede;box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);b">
     <div class='container'>
         <div class='col-md-8'>
-            <p class='copyright'> Carlos Salvador Amores Martínez | Copyright: 
+            <p class='copyright'> 
+                <a href='{{ env('APP_URL') }}'>Carlos Salvador Amores Martínez</a> - Copyright: 
                 <span> 
                     {{date('Y')}} 
                 </span> 
                 <br>
                 Programador Back End en
                 <a href='http://www.iahorro.com/utm_source=CarlosAmores' target='_blank'>iAhorro.com</a>
-                {{--
-                <br> 
-                Design and Developed by <a href='http://www.Themefisher.com' target='_blank'>Themefisher</a>
-                --}}
             </p>
         </div>
         <div class='col-md-4'>

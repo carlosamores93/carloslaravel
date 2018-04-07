@@ -1,31 +1,26 @@
 <section id="about">
     <div class="container">
         <div class="row">
-
-
             <div class="col-md-6 col-sm-6">
-                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                <div class="block wow fadeInLeft text-justify" data-wow-delay=".3s" data-wow-duration="500ms">
                     <h2>
-                    ABOUT ME
+                        Carlos Salvador Amores Martínez
                     </h2>
                     <p>
-                        Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero.
+                        Tengo 25 años, nací en <strong>La Maná, Ecuador</strong>, el dia 1 de Marzo de 1993. A la edad de 7 años viaje a <strong> España </strong> España con mi familia a buscar un futuro mejor. Aqui fue donde estudio la <strong> Primaria, ESO, Bachillerato y el Grado de Ingeniería de Computadores </strong> de la UCM.
+                        <br>
+                        <br>
+                        Soy un apasionado de internet y de las nuevas tecnologías. Me dedico a la programación web especialmente en PHP con el framework Laravel, trabajo en la empresa <strong> <a href="https://www.iahorro.com" target="_blank"> iAhorro.com </a></strong>
+                        como <strong> Programador Back End. </strong>
+                        También gusta mucho el tema<strong> SEO </strong> y por ese motivo he creado esta pequeña web para aplicar los conociemntos adqueridos. Puedes contactarme a través del formulario de contacto.
                     </p>
                 </div>
-                
             </div>
-
-
             <div class="col-md-6 col-sm-6">
                 <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
                     <img src="/images/about/about.jpg" alt="" style="border: solid 1px;">
                 </div>
             </div>
-
-
         </div>
     </div>
 </section>

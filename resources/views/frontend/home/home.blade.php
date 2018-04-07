@@ -10,9 +10,10 @@
 
     @include('frontend.home.component.slider')
     @include('frontend.home.component.about_me')
+    {{-- 
     @include('frontend.home.component.works')
     @include('frontend.home.component.feature')
-
+    --}}
 @endsection
 
 
