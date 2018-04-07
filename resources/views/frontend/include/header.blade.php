@@ -12,7 +12,7 @@
             
             {{-- logo --}}
             <div class="navbar-brand">
-                <a href="/home/" >
+                <a href="/" >
                     <img src="/images/logo.png" alt="">
                 </a>
             </div>

@@ -1,8 +1,8 @@
-<footer id='footer' style="border-top: 1px solid #dedede;box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);b">
+<footer id='footer'>
     <div class='container'>
         <div class='col-md-8'>
             <p class='copyright'> 
-                <a href='/'>Carlos Salvador Amores Martínez</a> - Copyright: 
+                <a href='/'>Carlos Salvador Amores Martínez</a> - Copyright 
                 <span> 
                     {{date('Y')}} 
                 </span> 
@@ -15,17 +15,17 @@
             <ul class='social'>
                 <li>
                     <a href='https://www.facebook.com/carlosamores93' class='Facebook' target='_blank'>
-                        <i class='ion-social-facebook'></i>
+                        <i class="fab fa-facebook"></i>
                     </a>
                 </li>
                 <li>
                     <a href='https://github.com/carlosamores93' class='Github' target='_blank'>
-                        <i class='ion-social-github'></i>
+                        <i class="fab fa-github-square"></i>
                     </a>
                 </li>
                 <li>
                     <a href='https://www.linkedin.com/in/carlosamores93/' class='Linkedin' target='_blank'>
-                        <i class='ion-social-linkedin'></i>
+                        <i class="fab fa-linkedin"></i>
                     </a>
                 </li>
             </ul>
