@@ -15,6 +15,13 @@ mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
 
 
+/*
+// Run all Mix tasks...
+npm run dev
+
+// Run all Mix tasks and minify output...
+npm run production
+*/
 
 
 mix.styles([
