@@ -348,16 +348,16 @@ a:hover {
 
 #hero-area .btn {
   background: #414141;
-  border: none;
-  color: #fff;
-  padding: 20px 35px;
+  border: 2px solid white;
+  color: white;
+  padding: 20px 20px;
   margin-top: 30px;
   font-size: 16px;
   font-size: 13px;
   line-height: 1em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: normal;
-  border-radius: 0;
+  border-radius: 50px;
 }
 
 #call-to-action {
@@ -1235,6 +1235,19 @@ article {
   padding: 4px 12px;
 }
 
+i.fab.fa-facebook{
+  color: #3b5998;
+}
+
+i.fab.fa-github-square{
+  color: #656565;
+}
+i.fab.fa-linkedin{
+  color: #0077b5;
+}
+
+
+
 #footer {
   background: #fff;
   padding: 25px 0;
@@ -1244,7 +1257,7 @@ article {
 }
 
 #footer .copyright {
-  font-size: 20px;
+  font-size: 16px;
   /*margin-bottom: 0;*/
 }
 

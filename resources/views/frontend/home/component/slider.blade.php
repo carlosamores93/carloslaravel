@@ -11,7 +11,6 @@
                                 <b class="is-visible">Prog Back End </b>
                                 <b>Ecuador</b>
                                 <b>Barcelona S C</b>
-                                <b>C. Atl de Madrid</b>
                                 <b>La Maná </b>
                             </span>
                         </h1>
@@ -28,7 +27,7 @@
                         
                     </h2>
                     <a class="btn btn-default btn-green" href="http://www.carlosamores.hol.es" target="_blank">
-                        Ver CV
+                        Curriculum Vitae Online
                     </a>
                 </div>
             </div>
