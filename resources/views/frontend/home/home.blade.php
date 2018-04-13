@@ -2,22 +2,22 @@
 
 
 @section('header')
-    @include('frontend.include.header')
+    @include('frontend.includes.header')
 @endsection
 
 
 @section('content')
 
-    @include('frontend.home.component.slider')
-    @include('frontend.home.component.about_me')
-    @include('frontend.home.component.works')
+    @include('frontend.home.components.slider')
+    @include('frontend.home.components.about_me')
+    @include('frontend.home.components.works')
     {{-- 
-    @include('frontend.home.component.feature')
+    @include('frontend.home.components.feature')
     --}}
 @endsection
 
 
 
 @section('footer')
-    @include('frontend.include.footer')
+    @include('frontend.includes.footer')
 @endsection

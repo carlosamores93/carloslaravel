@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
-@import url(http://fonts.googleapis.com/css?family=Glegoo);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Glegoo);
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -51,9 +51,9 @@ a:hover {
 .title {
   font-size: 30px;
   line-height: 1.1;
-  font-weight: 300;
+  font-weight: 600;
   color: #333;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 20px;
 }
 
@@ -61,7 +61,7 @@ a:hover {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 18px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .subtitle-des {
@@ -301,7 +301,7 @@ a:hover {
 }
 
 #hero-area {
-  background: url("../images/slider.jpg") no-repeat 50%;
+  background: url("../images/quilotoa.jpg") no-repeat 50%;
   background-size: cover;
   background-attachment: fixed;
   padding: 230px 0;
@@ -313,7 +313,7 @@ a:hover {
 #hero-area:before {
   content: '';
   z-index: 9;
-  background: rgba(255, 255, 255, 0.78);
+  /*background: rgba(255, 255, 255, 0.78);*/
   position: absolute;
   top: 0;
   left: 0;
@@ -329,7 +329,7 @@ a:hover {
 #hero-area h1 {
   font-size: 40px;
   line-height: 50px;
-  color: #333;
+  color: #FFF;
   font-weight: 700;
   margin-bottom: 15px;
   /*text-transform: uppercase;*/
@@ -341,23 +341,23 @@ a:hover {
   margin-bottom: 38px;
   line-height: 27px;
   /*text-transform: uppercase;*/
-  color: #666;
+  color: mediumblue;
   font-family: 'Roboto', sans-serif;
   margin-top: 25px;
 }
 
 #hero-area .btn {
   background: #414141;
-  border: none;
-  color: #fff;
-  padding: 20px 35px;
+  border: 2px solid white;
+  color: white;
+  padding: 20px 20px;
   margin-top: 30px;
   font-size: 16px;
   font-size: 13px;
   line-height: 1em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: normal;
-  border-radius: 0;
+  border-radius: 50px;
 }
 
 #call-to-action {
@@ -416,7 +416,7 @@ a:hover {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 30px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 #about .block p {
@@ -428,6 +428,10 @@ a:hover {
 
 #about .block img {
   max-width: 100%;
+  box-shadow: 0px 0px 5px 1px yellow;
+}
+
+
 }
 
 .about-feature {
@@ -821,7 +825,7 @@ article {
 }
 
 #contact-section {
-  padding: 90px 0;
+  /*padding: 90px 0;*/
 }
 
 #contact-section .contact-form {
@@ -889,7 +893,7 @@ article {
 }
 
 #contact-section .address-details {
-  padding-top: 70px;
+  /*padding-top: 70px;*/
 }
 
 #map-canvas {
@@ -1235,19 +1239,34 @@ article {
   padding: 4px 12px;
 }
 
+i.fab.fa-facebook{
+  color: #3b5998;
+}
+
+i.fab.fa-github-square{
+  color: #656565;
+}
+i.fab.fa-linkedin{
+  color: #0077b5;
+}
+
+
+
 #footer {
   background: #fff;
   padding: 25px 0;
   color: #555;
+  border-top: 1px solid #dedede;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 #footer .copyright {
-  font-size: 13px;
-  margin-bottom: 0;
+  font-size: 16px;
+  /*margin-bottom: 0;*/
 }
 
 #footer .copyright a {
-  color: #02bdd5;
+  /*color: #02bdd5;*/
 }
 
 #footer .social {
@@ -1261,12 +1280,13 @@ article {
 }
 
 #footer .social li a {
-  font-size: 22px;
-  color: #02bdd5;
+  font-size: 30px;
+  /*color: #02bdd5;*/
 }
 
 .cd-headline.slide .cd-words-wrapper {
-  color: #02bdd5;
+  /*color: #02bdd5;*/
+  color: #FFF;
 }
 
 ul.social-icons {
@@ -1327,17 +1347,17 @@ ul.social-icons li {
   }
 }
 
-/*		Tablet Layout: 768px.
-		Gutters: 24px.
-		Outer margins: 28px.
-		Inherits styles from: Default Layout.
+/*    Tablet Layout: 768px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
 -----------------------------------------------------------------
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
-/*		Mobile Layout: 320px.
-		Gutters: 24px.
-		Outer margins: 34px.
-		Inherits styles from: Default Layout.
+/*    Mobile Layout: 320px.
+    Gutters: 24px.
+    Outer margins: 34px.
+    Inherits styles from: Default Layout.
 ---------------------------------------------
 cols    1     2      3
 px      68    160    252    */
@@ -1424,10 +1444,10 @@ px      68    160    252    */
   }
 }
 
-/*		Wide Mobile Layout: 480px.
-		Gutters: 24px.
-		Outer margins: 22px.
-		Inherits styles from: Default Layout, Mobile Layout.
+/*    Wide Mobile Layout: 480px.
+    Gutters: 24px.
+    Outer margins: 22px.
+    Inherits styles from: Default Layout, Mobile Layout.
 ------------------------------------------------------------
 cols    1     2      3      4      5
 px      68    160    252    344    436    */
