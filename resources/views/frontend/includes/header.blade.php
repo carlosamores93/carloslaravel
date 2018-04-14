@@ -23,7 +23,7 @@
             <div class='main-menu'>
                 <ul class='nav navbar-nav navbar-right'>
                     <li><a href='{{ env('APP_URL') }}' >Home</a></li>
-                    <li><a href='{{ env('APP_URL') }}/contacto/' >Contacto</a></li>
+                    <li><a href='{{ env('APP_URL') }}/contacto' >Contacto</a></li>
 
                     {{-- 
                     <li><a href='/about/'>About</a></li>

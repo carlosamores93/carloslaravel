@@ -6,50 +6,60 @@
         </p>
         <div class="contact-form">
 
-
-            <form id="contact-form" method="#" action="#" role="form">
+            {{ Form::open(array('route' => 'contact.send.message', 'method' => 'post')) }}
     
                 <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".6s">
 
 
-                    <input type="text" placeholder="Nombre y apellidos" class="form-control" name="name" id="name">
+                    {{ Form::text('name', null, array('required', 'class' => 'form-control', 'id' => 'name', 'placeholder' => 'Nombre y apellidos'))}}
+                    
                 </div>
                 
                 <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".8s">
 
+                    {{ Form::email('email', null, array('required', 'class' => 'form-control', 'id' => 'email', 'placeholder' => 'Correo electrónico'))}}
 
-                    <input type="email" placeholder="Correo electrónico" class="form-control" name="email" id="email" >
                 </div>
                 
                 <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
 
-
-                    <input type="text" placeholder="Asunto" class="form-control" name="subject" id="subject">
+                    {{ Form::text('subject', null, array('required', 'class' => 'form-control', 'id' => 'subject', 'placeholder' => 'Asunto'))}}
                 </div>
                 
                 <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.2s">
 
+                    {{ Form::textarea('message', null, array('required', 'class' => 'form-control', 'id' => 'message', 'placeholder' => 'Mensaje', 'rows' => 6))}}
 
-                    <textarea rows="6" placeholder="Mensaje" class="form-control" name="message" id="message"></textarea>    
                 </div>
                 
 
                 {{-- Blade con una condicion --}}
-                <div id="success" class="success">
-                    Thank you. The Mailman is on His Way :)
-                </div>
+
+
+                @if(isset($sent) && $sent == 'si')
+                    <div>
+                        {{-- Thank you. The Mailman is on His Way :) --}}
+                        Gracias. Mensaje enviado.
+                    </div>
+
+                @elseif(isset($sent) && $sent == 'no')
+                    <div>
+                        {{-- Sorry, don't know what happened. Try later :( --}}
+                        Disculpe. Ocurrió un problema. Intentelo de nuevo
+                    </div>
+                @endif
                 
-                <div id="error" class="error">
-                    Sorry, don't know what happened. Try later :(
-                </div>
+                
 
 
                 
                 
                 <div id="submit" class="wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.4s">
                     <input type="submit" id="contact-submit" class="btn btn-default btn-send" value="Enviar mensaje">
-                </div>                      
-            </form>
+                </div> 
+
+            {{ Form::close() }}
+
         </div>
     </div>
 </div>
