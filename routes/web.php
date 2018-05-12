@@ -28,15 +28,3 @@ Route::get('/', function () {
 
 
 		require (__DIR__ . '/rutas/frontend/home.php');
-
-
-
-		
-
-Route::get('/about/', function () {
-    return view('frontend.about');
-});
-
-Route::get('/contact/', function () {
-    return view('frontend.contact');
-});
