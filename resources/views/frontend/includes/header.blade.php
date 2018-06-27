@@ -13,7 +13,7 @@
             {{-- logo --}}
             <div class='navbar-brand'>
                 <a href='{{ env('APP_URL') }}' >
-                    <img src='/images/logo.png' alt=''>
+                    <img src='/images/carlosamores.png' alt='Carlos Salvador Amores Martínez'>
                 </a>
             </div>
             {{-- /logo --}}
