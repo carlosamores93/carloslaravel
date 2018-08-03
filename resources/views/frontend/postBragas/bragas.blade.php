@@ -16,7 +16,7 @@
                     <h1>El negocio de la bragas usadas</h1>
                     <div class="portfolio-meta">
                         <span> Agosto 2018 </span>|
-                        <span> Artículo dedicas a <strong> Lorena Miranda </strong>  </span> |
+                        <span> Artículo dedicado a <strong> Lorena Miranda </strong>  </span> |
                         <span> Madrid, España</span>
                     </div>
                 </div>
