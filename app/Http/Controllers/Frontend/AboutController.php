@@ -21,4 +21,16 @@ class AboutController extends Controller{
         return view('frontend.about.about', compact('a_meta_seo'));
     }
 
+
+
+    public function bragas(){
+        
+        $a_meta_seo = array();
+        $a_meta_seo['title'] = 'Ventas de bragas usadas. Lencería y bikinis usadas en Madrid';
+        $a_meta_seo['description'] = '';
+        $a_meta_seo['canonical'] = env('APP_URL').'/compra-venta-bragas-usadas.html';
+
+        return view('frontend.postBragas.bragas', compact('a_meta_seo'));
+    }
+
 }
