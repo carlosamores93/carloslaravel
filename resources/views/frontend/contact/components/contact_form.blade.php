@@ -32,27 +32,6 @@
 
                 </div>
                 
-
-                {{-- Blade con una condicion --}}
-
-
-                @if(isset($sent) && $sent == 'si')
-                    <div>
-                        {{-- Thank you. The Mailman is on His Way :) --}}
-                        Gracias. Mensaje enviado.
-                    </div>
-
-                @elseif(isset($sent) && $sent == 'no')
-                    <div>
-                        {{-- Sorry, don't know what happened. Try later :( --}}
-                        Disculpe. Ocurrió un problema. Intentelo de nuevo
-                    </div>
-                @endif
-                
-                
-
-
-                
                 
                 <div id="submit" class="wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.4s">
                     <input type="submit" id="contact-submit" class="btn btn-default btn-send" value="Enviar mensaje">

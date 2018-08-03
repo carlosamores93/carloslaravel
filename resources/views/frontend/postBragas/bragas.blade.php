@@ -16,7 +16,7 @@
                     <h1>El negocio de la bragas usadas</h1>
                     <div class="portfolio-meta">
                         <span> Agosto 2018 </span>|
-                        <span> Artículo dedicado a <strong> Lorena Miranda </strong>  </span> |
+                        <span> Artículo dedicado a <strong> La Wera </strong>  </span> |
                         <span> Madrid, España</span>
                     </div>
                 </div>
@@ -36,24 +36,23 @@
                 </div>
                 <div class="post-content">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sit expedita, iusto repellendus cumque, officia architecto consequatur illo fuga eum sed ut autem eos voluptas. Nemo, a, rem! Atque quisquam aperiam eaque tenetur autem, soluta itaque omnis. Minus nesciunt, sint, animi illum quo ab voluptate esse delectus unde maiores iure, quasi a suscipit ipsam aliquid voluptatem. Perspiciatis eveniet, pariatur illum aut cum dolor neque consequatur error aliquid facilis in quasi temporibus assumenda tempore, doloremque autem saepe enim nihil. Voluptates asperiores ullam voluptate quas similique ratione quia hic, eum distinctio laboriosam, consectetur tempora voluptatibus optio natus cumque est necessitatibus dolore alias.
+                        Vender braguitas usadas, sudadas y manchadas, por 50 euros. Puede parecer extraño, pero es un negocio al alza en España y algunas mujeres ya lo ven como un sobresueldo para ayudarse económicamente o incluso como un trabajo.
                     </p>
                     <blockquote>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas alias ut totam labore, rerum soluta harum vitae pariatur, optio, ad dolore, nihil eligendi nesciunt repellat esse provident sapiente. Repellendus, minus!
+                        Si las braguitas se usan tres días seguidos, son 10 al mes. Si cada una se vende por una media de 50 euros, eso son 500. Sólo con braguitas, porque los sujetadores, calcetines o juguetes sexuales también son susceptibles de subastarse.
                     </blockquote>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis expedita repellendus laboriosam aliquid. Neque doloribus ea, id reprehenderit alias saepe debitis eligendi molestias odit, nesciunt rem. Dolorem saepe, provident dolore nesciunt laudantium nostrum enim natus veritatis harum maxime et iure ratione, nulla. Minus excepturi commodi tempore voluptate. Blanditiis similique dolor asperiores ex excepturi perspiciatis, dolores id esse. Voluptate beatae nesciunt cum esse ratione officiis necessitatibus blanditiis ea, laboriosam fugit vero maxime? Voluptatum illo dolorum autem pariatur quisquam. Voluptates soluta culpa necessitatibus veritatis tempora incidunt doloribus placeat repellat et facilis eum sapiente fugit numquam aut, laboriosam aspernatur, esse, magnam excepturi repudiandae amet voluptas nulla quidem. Veritatis nisi consequuntur saepe qui quisquam dignissimos assumenda, iusto odio. Dignissimos reprehenderit esse iusto cupiditate nisi enim, animi similique itaque, perspiciatis error qui. Aperiam, architecto provident.
+                        El fenómeno viene de Japón y en España no para de ganar personas que quieres comprar este tipo de ropa interior. La mayoria de los compradores son hombres fetichistas, que excitan poniéndose las bragas ellos mismos, oliendo-las, o incluso pidiéndole a su pareja que las lleve. Para la mayoría de vendedoras, el gusto por las bragas usadas no es más que una oportunidad para ganar un sobresueldo, pero otros lo ven como una diversión.
                     </p>
-                    <ol>
-                        <li>Ipsum dolor sit amet.</li>
-                        <li>Lorem sit amet.</li>
-                        <li>Lorem ipsum dolor sit amet.</li>
-                        <li>Lorem ipsum dolor amet.</li>
-                    </ol>
+
                     <p>
-                        <strong>
-                            Si estas intersado/a en la compra de bragas usadas no dudes en contactarnos. Si prefieres hacerlo por telefono puedes llamar al  630 25 41 59 y preguntar por Lorena Miranda.
-                        </strong>
+                        La pieza que tiene más éxito es un tanga y las embarazadas son las vendedoras que más triunfan. Los precios de las bragas van desde los 30 hasta los 100 euros. La vendedora cuelga fotografías donde se la ve con la ropa interior a la venta y al lado escribe una descripción en la que indica que ha hecho. El cliente que esté interesado debe iniciar un chat con ella para ponerse de acuerdo. En ningún momento hay que revelar la identidad de ninguno de los dos y el envío debe hacerse cde manera que sea de forma anónima.
+                    </p>
+
+
+                    <p>
+                        
+                        <strong> Si estas intersado/a en la compra de bragas usadas </strong> no dudes en contactarnos. Si prefieres hacerlo por telefono puedes llamar al  <strong> 630 25 41 59 </strong> y preguntar por <strong>La Wera  </strong>
                     </p>
                 </div>
                 

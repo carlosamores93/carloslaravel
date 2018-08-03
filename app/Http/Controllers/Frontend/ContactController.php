@@ -25,16 +25,22 @@ class ContactController extends Controller{
     public function send_message(Request $request){
     	$input = $request;
 
-    	$msg = 'De: ' . $input->name . ', Email: ' . $input->email . ', Mensaje: ' . $input->message;
+    	$msg = 'De: ' . $input->name . ', Asunto:' . $input->subject .' Email: ' . $input->email . ', Mensaje: ' . $input->message;
 
 
     	if(mail('admin@amorescarlos.com', $input->subject, $msg)){
     		$this->sent = 'si';
-    	}else{
-    		$this->sent = 'no';
-    	}
+            mail('amorescarlos93@hotmail.com', $input->subject, $msg);
+            mail('carlos-ecua-23@hotmail.com', $input->subject, $msg);
+        }else{
+            $this->sent = 'no';
+        }
 
-    	//dd($sent);
-        return redirect()->route('contact');
+
+    	$a_meta_seo = array();
+        $a_meta_seo['title'] = '✆ Mensaje enviado ✉';
+        $a_meta_seo['description'] = 'Mensaje enviado correctamente';
+        $a_meta_seo['canonical'] = env('APP_URL').'/mensaje-enviado';
+        return view('frontend.contact.contactOK', compact('a_meta_seo', 'sent'));
     }
 }
