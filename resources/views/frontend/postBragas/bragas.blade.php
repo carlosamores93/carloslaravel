@@ -25,7 +25,7 @@
     </div>
 </section><!--/#Page header-->
 
-<section class="single-post">
+<section class="single-post" style="padding-top:  0px;">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
