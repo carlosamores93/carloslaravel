@@ -13,9 +13,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        Commands\CarlosAmores::class,
     ];
-
     /**
      * Define the application's command schedule.
      *
@@ -26,6 +25,7 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')
         //          ->hourly();
+        $schedule->command('command:carlos')->dailyAt('20:00');
     }
 
     /**
