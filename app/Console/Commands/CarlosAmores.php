@@ -56,13 +56,13 @@ class CarlosAmores extends Command
 
         if($msg === 'NO'){
             $asunto = "Test NO";
-            $msg = "Mesaje al correo, TEST NO";
+            $msg = "Mesaje al correo, TEST NO" . Carbon::now();
             mail('admin@amorescarlos.com', $asunto, $msg);
             mail('amorescarlos93@hotmail.com', $asunto, $msg);
             mail('carlos-ecua-23@hotmail.com', $asunto, $msg);
         }else{
             $asunto = "Test SI";
-            $msg = "Mesaje al correo, TEST SI";
+            $msg = "Mesaje al correo, TEST SI" . Carbon::now();
             mail('admin@amorescarlos.com', $asunto, $msg);
             mail('amorescarlos93@hotmail.com', $asunto, $msg);
             mail('carlos-ecua-23@hotmail.com', $asunto, $msg);
