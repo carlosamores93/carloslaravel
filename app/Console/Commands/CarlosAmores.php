@@ -20,7 +20,7 @@ class CarlosAmores extends Command
      *
      * @var string
      */
-    protected $description = 'Probando mi comando';
+    protected $description = 'Probando comando de Carlos Amores';
 
     /**
      * Create a new command instance.
@@ -40,33 +40,30 @@ class CarlosAmores extends Command
     public function handle()
     {
 
-        $test = array('Y' => 1896, 'M' => 8, 'D' => 7);
-        $msg = $this->recordarCumpleaños('Test', $test);
-        $this->info($msg);
+        $test = array('Y' => 2015, 'M' => 8, 'D' => 8);
+        $msg = $this->recordarCumpleaños('Prueba Carlos', $test);
+        $this->enviarCorreo($msg);
 
-/*
-        $carlosCumple = array('Y' => 1993, 'M' => 3, 'D' => 1);
-        $msg = $this->recordarCumpleaños('Carlos Amores', $carlosCumple);
-        $this->info($msg);
+        $carlos = array('Y' => 1993, 'M' => 3, 'D' => 1);
+        $msg = $this->recordarCumpleaños('Carlos Amores', $carlos);
+        $this->enviarCorreo($msg);
+
+        $patricio = array('Y' => 1994, 'M' => 11, 'D' => 3);
+        $msg = $this->recordarCumpleaños('Patricio Amores', $patricio);
+        $this->enviarCorreo($msg);
 
         $camila = array('Y' => 2016, 'M' => 12, 'D' => 17);
         $msg = $this->recordarCumpleaños('Camila Amores', $camila);
-        $this->info($msg);
-*/
+        $this->enviarCorreo($msg);
 
-        if($msg === 'NO'){
-            $asunto = "Test NO";
-            $msg = "Mesaje al correo, TEST NO" . Carbon::now();
-            mail('admin@amorescarlos.com', $asunto, $msg);
-            mail('amorescarlos93@hotmail.com', $asunto, $msg);
-            mail('carlos-ecua-23@hotmail.com', $asunto, $msg);
-        }else{
-            $asunto = "Test SI";
-            $msg = "Mesaje al correo, TEST SI" . Carbon::now();
-            mail('admin@amorescarlos.com', $asunto, $msg);
-            mail('amorescarlos93@hotmail.com', $asunto, $msg);
-            mail('carlos-ecua-23@hotmail.com', $asunto, $msg);
-        }
+        $jessica = array('Y' => 1995, 'M' => 6, 'D' => 15);
+        $msg = $this->recordarCumpleaños('Jessica Obando', $jessica);
+        $this->enviarCorreo($msg);
+
+
+        $asunto = 'Teste envio Email';
+        $mensaje = 'Hora de envio: ' . Carbon::now();
+        mail('admin@amorescarlos.com', $asunto, $mensaje);
 
         /*
         $asunto = "Cumple Carlos Amores";
@@ -83,9 +80,19 @@ class CarlosAmores extends Command
         $dateNow = Carbon::now();
         if($dateNow->month === $fecha['M'] && $dateNow->day === $fecha['D']){
             $edad = $dateNow->year - $fecha['Y'];
-            $msg = $name . " cumple hoy " . $edad . ' años';
+            $msg = 'Recuerda!!! <br>' . $name . " hoy cumple " . $edad . ' años.';
         }
         return $msg;
+    }
+
+    public function enviarCorreo($msg){
+        if($msg !== 'NO'){
+            $asunto = 'Recordatorio 🎂 cumpleaños';
+            $mensaje = $msg . ' <br> Hora de envio: ' . Carbon::now();
+            mail('admin@amorescarlos.com', $asunto, $mensaje);
+            mail('amorescarlos93@hotmail.com', $asunto, $mensaje);
+            mail('carlos-ecua-23@hotmail.com', $asunto, $mensaje);
+        }
     }
 
 
@@ -147,6 +154,5 @@ class CarlosAmores extends Command
         } catch (\Carbon\Exceptions\InvalidDateException $exp) {
             $this->error($exp->getMessage());
         }
-
     }
 }
