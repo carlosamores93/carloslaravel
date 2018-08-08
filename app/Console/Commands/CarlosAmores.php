@@ -37,12 +37,13 @@ class CarlosAmores extends Command
      *
      * @return mixed
      */
-    public function handle()
-    {
+    public function handle(){
 
+        /*
         $test = array('Y' => 2015, 'M' => 8, 'D' => 8);
         $msg = $this->recordarCumpleaños('Prueba Carlos', $test);
         $this->enviarCorreo($msg);
+        */
 
         $carlos = array('Y' => 1993, 'M' => 3, 'D' => 1);
         $msg = $this->recordarCumpleaños('Carlos Amores', $carlos);
@@ -80,15 +81,15 @@ class CarlosAmores extends Command
         $dateNow = Carbon::now();
         if($dateNow->month === $fecha['M'] && $dateNow->day === $fecha['D']){
             $edad = $dateNow->year - $fecha['Y'];
-            $msg = 'Recuerda!!! <br>' . $name . " hoy cumple " . $edad . ' años.';
+            $msg = $name . " hoy cumple " . $edad . ' anios.';
         }
         return $msg;
     }
 
     public function enviarCorreo($msg){
         if($msg !== 'NO'){
-            $asunto = 'Recordatorio 🎂 cumpleaños';
-            $mensaje = $msg . ' <br> Hora de envio: ' . Carbon::now();
+            $asunto = 'Recordatorio 🎂 cumpleanhos';
+            $mensaje = $msg . ' - Hora de envio: ' . Carbon::now();
             mail('admin@amorescarlos.com', $asunto, $mensaje);
             mail('amorescarlos93@hotmail.com', $asunto, $mensaje);
             mail('carlos-ecua-23@hotmail.com', $asunto, $mensaje);
