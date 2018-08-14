@@ -49,6 +49,14 @@ class CarlosAmores extends Command
         $msg = $this->recordarCumpleaños('Carlos Amores', $carlos);
         $this->enviarCorreo($msg);
 
+        $maria = array('Y' => 1992, 'M' => 3, 'D' => 14);
+        $msg = $this->recordarCumpleaños('Maria B', $maria);
+        $this->enviarCorreo($msg);
+
+        $dogor = array('Y' => 1991, 'M' => 12, 'D' => 18);
+        $msg = $this->recordarCumpleaños('Diego Duque, alias Lucho', $dogor);
+        $this->enviarCorreo($msg);
+
         $patricio = array('Y' => 1994, 'M' => 11, 'D' => 3);
         $msg = $this->recordarCumpleaños('Patricio Amores', $patricio);
         $this->enviarCorreo($msg);
