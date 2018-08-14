@@ -31,8 +31,9 @@
             <div class="col-md-12">
                 <div class="post-img text-center">
 
-                    <h2> Como funciona la compra ventas de bragas usadas</h2>
-                    <img class="img-responsive" alt="Bragas usadas" src="images/blog/bragas.jpg" style="display:unset;">
+                    <h2> Como funciona la compra ventas de bragas/tangas usadas</h2>
+                    <iframe width="560" height="315" class='video_scroll_tanga' src="https://www.youtube.com/embed/iqTR3NT_vlk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <input type="submit" value="Borrar" id='video_del' class='video_del' style='display: none;'>
                 </div>
                 <div class="post-content">
                     <p>
@@ -41,6 +42,9 @@
                     <blockquote>
                         Si las braguitas se usan tres días seguidos, son 10 al mes. Si cada una se vende por una media de 50 euros, eso son 500. Sólo con braguitas, porque los sujetadores, calcetines o juguetes sexuales también son susceptibles de subastarse.
                     </blockquote>
+                    <div class="post-img text-center">
+                        <img class="img-responsive" alt="Bragas usadas" src="images/blog/bragas.jpg" style="display:unset;">
+                    </div>
                     <p>
                         El fenómeno viene de Japón y en España no para de ganar personas que quieres comprar este tipo de ropa interior. La mayoria de los compradores son hombres fetichistas, que excitan poniéndose las bragas ellos mismos, oliendo-las, o incluso pidiéndole a su pareja que las lleve. Para la mayoría de vendedoras, el gusto por las bragas usadas no es más que una oportunidad para ganar un sobresueldo, pero otros lo ven como una diversión.
                     </p>
@@ -52,7 +56,7 @@
 
                     <p>
                         
-                        <strong> Si estas intersado/a en la compra de bragas usadas </strong> no dudes en contactarnos. Si prefieres hacerlo por telefono puedes llamar al  <strong> 630 25 41 59 </strong> y preguntar por <strong>La Wera  </strong>
+                        <strong> Si estás intersado/a en la compra de bragas usadas </strong> no dudes en contactarnos. Si prefieres hacerlo por teléfono puedes llamar al  <strong> 630 25 41 59 </strong> y preguntar por <strong> La Wera  </strong>
                     </p>
                 </div>
                 
@@ -69,3 +73,18 @@
 @section('footer')
     @include('frontend.includes.footer')
 @endsection
+
+@section('script')
+    <script type="text/javascript">
+        $(document).ready(function($) {
+            $('.video_scroll_tanga').vscroll();
+            $('.video_del').eliminarVideo();
+            $('#video_del').click(function(event) {
+                $(".video_scroll_tanga").remove();
+                $("#video_del").remove();
+            });
+
+        });
+    </script>
+@endsection
+

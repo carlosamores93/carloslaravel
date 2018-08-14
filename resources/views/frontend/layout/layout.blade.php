@@ -108,6 +108,11 @@
     	{{-- Fancybox --}}
     	<script src="/plugins/facncybox/jquery.fancybox.js"></script>
     	{{-- template main js --}}
-    	<script src="/js/main.js"></script>
+        <script src="/js/main.js"></script>
+
+
+    	<script src="/js/videoscroll.js"></script>
+
+        @yield('script')
  	</body>
 </html>
