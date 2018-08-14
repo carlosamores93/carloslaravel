@@ -84,6 +84,11 @@
                 $("#video_del").remove();
             });
 
+            if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                console.log('Esto es un dispositivo móvil');
+                $('.video_scroll_tanga').addClass('img-responsive');
+            }
+
         });
     </script>
 @endsection
