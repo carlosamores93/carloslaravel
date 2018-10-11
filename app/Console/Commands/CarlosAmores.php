@@ -62,12 +62,81 @@ class CarlosAmores extends Command
         $this->enviarCorreo($msg);
 
         $camila = array('Y' => 2016, 'M' => 12, 'D' => 17);
-        $msg = $this->recordarCumpleaños('Camila Amores', $camila);
+        $msg = $this->recordarCumpleaños('Camila Leonor Amores Obando', $camila);
         $this->enviarCorreo($msg);
 
         $jessica = array('Y' => 1995, 'M' => 6, 'D' => 15);
         $msg = $this->recordarCumpleaños('Jessica Obando', $jessica);
         $this->enviarCorreo($msg);
+
+        $moises = array('Y' => 1975, 'M' => 9, 'D' => 24);
+        $msg = $this->recordarCumpleaños('Moises Amores', $moises);
+        $this->enviarCorreo($msg);
+
+
+        $pili = array('Y' => 2006, 'M' => 9, 'D' => 19);
+        $msg = $this->recordarCumpleaños('Priscila Anahí Amores Barahona', $pili);
+        $this->enviarCorreo($msg);
+
+        $don_manuel = array('Y' => 1900, 'M' => 9, 'D' => 22);
+        $msg = $this->recordarCumpleaños('Don Manuel', $don_manuel);
+        $this->enviarCorreo($msg);
+
+        $wera = array('Y' => 1990, 'M' => 10, 'D' => 5);
+        $msg = $this->recordarCumpleaños('Lorena Miranda', $wera);
+        $this->enviarCorreo($msg);
+
+        $oscar = array('Y' => 2005, 'M' => 12, 'D' => 9);
+        $msg = $this->recordarCumpleaños('Oscar Alejandro Naranjo Amores, alias Raposo', $oscar);
+        $this->enviarCorreo($msg);
+
+        $miguel_angel = array('Y' => 2001, 'M' => 12, 'D' => 28);
+        $msg = $this->recordarCumpleaños('Miguel Angel', $miguel_angel);
+        $this->enviarCorreo($msg);
+
+        $tia_amada = array('Y' => 1972, 'M' => 12, 'D' => 26);
+        $msg = $this->recordarCumpleaños('Amada Leonor Amores Neto', $tia_amada);
+        $this->enviarCorreo($msg);
+
+        $ahinoga = array('Y' => 2018, 'M' => 9, 'D' => 9);
+        $msg = $this->recordarCumpleaños('Ahinoa Valentina Amores Cuje', $ahinoga);
+        $this->enviarCorreo($msg);
+
+        $pillin_willi = array('Y' => 1999, 'M' => 1, 'D' => 13);
+        $msg = $this->recordarCumpleaños('Pillin William', $pillin_willi);
+        $this->enviarCorreo($msg);
+
+        $jenny = array('Y' => 1993, 'M' => 1, 'D' => 22);
+        $msg = $this->recordarCumpleaños('Jenny, ñaña Victor', $jenny);
+        $this->enviarCorreo($msg);
+
+        $andrea = array('Y' => 2005, 'M' => 5, 'D' => 10);
+        $msg = $this->recordarCumpleaños('Andrea Amores', $andrea);
+        $this->enviarCorreo($msg);
+
+        $eulalia = array('Y' => 1979, 'M' => 6, 'D' => 2);
+        $msg = $this->recordarCumpleaños('Eulalia Amores', $eulalia);
+        $this->enviarCorreo($msg);
+
+        $mama = array('Y' => 1970, 'M' => 7, 'D' => 3);
+        $msg = $this->recordarCumpleaños('Mamaaaaaaaaaaaa', $mama);
+        $this->enviarCorreo($msg);
+
+        $leonor = array('Y' => 1939, 'M' => 7, 'D' => 31);
+        $msg = $this->recordarCumpleaños('Abuelita Leonor', $leonor);
+        $this->enviarCorreo($msg);
+
+        $marcelo = array('Y' => 1974, 'M' => 9, 'D' => 1);
+        $msg = $this->recordarCumpleaños('Abuelita Leonor', $marcelo);
+        $this->enviarCorreo($msg);
+
+
+        $papa = array('Y' => 1967, 'M' => 8, 'D' => 2);
+        $msg = $this->recordarCumpleaños('Papaaaaaaa', $papa);
+        $this->enviarCorreo($msg);
+
+
+
 
 
         $asunto = 'Teste envio Email';
