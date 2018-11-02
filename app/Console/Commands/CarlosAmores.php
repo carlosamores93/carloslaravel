@@ -160,6 +160,11 @@ class CarlosAmores extends Command
             $edad = $dateNow->year - $fecha['Y'];
             $msg = $name . " hoy cumple " . $edad . ' anios.';
         }
+        $dateNowTomorrow = Carbon::tomorrow();
+        if($dateNowTomorrow->month === $fecha['M'] && $dateNowTomorrow->day === $fecha['D']){
+            $edad = $dateNowTomorrow->year - $fecha['Y'];
+            $msg = 'Mañana ' . $name . " cumple " . $edad . ' anios.';
+        }
         return $msg;
     }
 

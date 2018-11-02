@@ -56,7 +56,7 @@
 
                     <p>
                         
-                        <strong> Si estás intersado/a en la compra de bragas usadas </strong> no dudes en contactarnos. Si prefieres hacerlo por teléfono puedes llamar al  <strong> 630 25 41 59 </strong> y preguntar por <strong> La Wera  </strong>
+                        <strong> Si estás intersado/a en la compra de bragas usadas </strong> no dudes en contactarnos al correo <strong> bragaslawera@hotmail.com </strong> y asunto <strong> La Wera y sus braguitas </strong>
                     </p>
                 </div>
                 
