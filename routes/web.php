@@ -28,3 +28,6 @@ Route::get('/', function () {
 
 
 		require (__DIR__ . '/rutas/frontend/home.php');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
