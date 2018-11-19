@@ -25,7 +25,7 @@
                     <li><a href='{{ env('APP_URL') }}' >Inicio</a></li>
                     {{--<li><a href='{{ env('APP_URL') }}/about'>About</a></li>--}}
                     <li><a href='{{ env('APP_URL') }}/contacto' >Contacto</a></li>
-                    <li><a href='{{ env('APP_URL') }}/compra-venta-bragas-usadas.html' >Wera</a></li>
+                    <li><a href="{{ route('bragas') }}" >Wera</a></li>
 
                     {{-- 
                     <li><a href='/about/'>About</a></li>
