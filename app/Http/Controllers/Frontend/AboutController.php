@@ -24,7 +24,7 @@ class AboutController extends Controller{
 
 
     public function bragas(){
-        
+        return redirect('https://www.bragasexy.es/compra-venta-bragas-usadas.html', 301);
         $a_meta_seo = array();
         $a_meta_seo['title'] = 'Venta de bragas o tangas usadas. Lencería y bikinis usadas en Madrid';
         $a_meta_seo['description'] = 'Venta de bragas usadas. Eres de esos hombres fetichistas que les gusta la ropa interior feminina usadas? Ahora es el momento, tienes gran variedad de ofertas por Internet, he creado este articulo porque una amiga está interesada en vender este tipo de ropa interior. Solo tienes con contactar con ella o con el admin de esta web. Un saludo :)';
