@@ -33,4 +33,21 @@ class AboutController extends Controller{
         return view('frontend.postBragas.bragas', compact('a_meta_seo'));
     }
 
+
+    public function primitiva(){
+        
+        $a_meta_seo = array();
+        $a_meta_seo['title'] = 'Generar numeros al azar para la primitiva';
+        $a_meta_seo['description'] = 'Generador de numeros para la primitiva, incluido el reintegro';
+        $a_meta_seo['canonical'] = env('APP_URL').'/compra-venta-bragas-usadas.html';
+
+        for ($i=0; $i < 6; $i++) {
+            $numeros[$i] = mt_rand(1, 49);
+        }
+        asort($numeros);
+        $reintegro = mt_rand(0, 9);
+
+        return view('frontend.primitiva', compact('a_meta_seo', 'numeros', 'reintegro'));
+    }
+
 }

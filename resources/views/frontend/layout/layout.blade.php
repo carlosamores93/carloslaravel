@@ -14,7 +14,7 @@
         <meta name="format-detection" content="telephone=no">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="icon" href="mitad-del-mundo.ico">
+        <link rel="icon" href="/favicon/favicon_4.ico">
         
         <link type="text/plain" href="http://purl.org/dc/elements/1.1/" rel="schema.DC">
         <link type="text/plain" href="http://purl.org/dc/terms/" rel="schema.DCTERMS">
